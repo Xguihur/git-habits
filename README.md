@@ -83,6 +83,8 @@ PowerShell 使用 `git pull` 后执行 `./update.ps1`（或 `& .\update.ps1`）�
 
 `doctor` 检查 Git、npm、配置路径、加载区块和当前会话中的命令，不自动修改用户配置。
 
+Run `tests/check-commands.sh` to verify every command row has both platform runtime functions and no duplicate or malformed TSV entries.
+
 ## 自定义命令
 
 1. 在 `config/commands.tsv` 中增加一行，填写名称、Shell 命令、PowerShell 命令、说明、参数标志和风险标志；

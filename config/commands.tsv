@@ -1,1 +1,13 @@
-# name\tshell command\tPowerShell command\tdescription\tparameters\thigh risk\ncl\tclear\tClear-Host\tClear the terminal\tno\tno\ngad\tgit add .\tgit add .\tStage all changes in the current repository\tno\tyes\ngcm\tgit commit -m\tgit commit -m\tCreate a commit with the supplied message\tyes\tno\ngps\tgit push\tgit push\tPush commits to the configured remote\tno\tyes\ngpl\tgit pull\tgit pull\tPull and integrate changes from the configured remote\tno\tyes\ngmg\tgit merge\tgit merge\tMerge the supplied branch or ref\tyes\tyes\ngst\tgit status\tgit status\tShow working tree status\tno\tno\nglg\tgit log\tgit log\tShow commit history\tno\tno\ngll\tgit log --oneline\tgit log --oneline\tShow compact commit history\tno\tno\ngcl\tgit clone\tgit clone\tClone a repository\tyes\tno\nnrd\tnpm run dev\tnpm run dev\tRun the current project's dev script\tno\tyes\nnrb\tnpm run build\tnpm run build\tRun the current project's build script\tno\tyes\n
+# name	shell command	PowerShell command	description	parameters	high risk
+cl	clear	Clear-Host	Clear the terminal	no	no
+gad	git add .	git add .	Stage all changes in the current repository	no	yes
+gcm	git commit -m	git commit -m	Create a commit with the supplied message	yes	no
+gps	git push	git push	Push commits to the configured remote	no	yes
+gpl	git pull	git pull	Pull and integrate changes from the configured remote	no	yes
+gmg	git merge	git merge	Merge the supplied branch or ref	yes	yes
+gst	git status	git status	Show working tree status	no	no
+glg	git log	git log	Show commit history	no	no
+gll	git log --oneline	git log --oneline	Show compact commit history	no	no
+gcl	git clone	git clone	Clone a repository	yes	no
+nrd	npm run dev	npm run dev	Run the current project's dev script	no	yes
+nrb	npm run build	npm run build	Run the current project's build script	no	yes
